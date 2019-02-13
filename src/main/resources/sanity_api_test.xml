@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REST API check services" parallel="classes">
+    <test name="REST CMS API" preserve-order="false" verbose="1">
+        <packages>
+            <package name="restapi.cms.*"/>
+        </packages>
+    </test>
+    <test name="REST CATALOG API" preserve-order="false" verbose="1">
+        <packages>
+            <package name="restapi.catalog.*"/>
+        </packages>
+    </test>
+</suite>
