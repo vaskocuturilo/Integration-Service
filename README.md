@@ -24,8 +24,6 @@ to run test ```mvn clean test -Denv=testdata```
 
 **Note**: You should have installed Chrome browser, Gradle.
 
-
-
 ![](https://a.radikal.ru/a04/1903/47/ed0bd234f948.png)
 
 ![](https://c.radikal.ru/c42/1903/0f/36fe5ce12575.png)
